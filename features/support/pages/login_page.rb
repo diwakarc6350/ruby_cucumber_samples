@@ -1,7 +1,7 @@
 class LoginPage
   include PageObject
 
-  page_url 'http://wiki.netjets.com'
+  page_url 'http://wiki.somesite.com'
 
   text_field(:username, :id => 'os_username')
   text_field(:password, :id => 'os_password')
